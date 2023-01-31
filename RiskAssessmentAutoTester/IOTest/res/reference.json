@@ -1,0 +1,112 @@
+{
+    "Actor": [
+        {
+            "HasConnection": [
+                "SV_10_MODEL6"
+            ],
+            "HasLPriv": [
+            ],
+            "HasPAccess": [
+            ],
+            "HasRole": [
+            ],
+            "name": "AR_0_MODEL4",
+            "type": "Actor",
+            "x": 59,
+            "y": 314,
+            "z": 0
+        }
+    ],
+    "Device": [
+        {
+            "DeviceHasService": [
+                "SV_10_MODEL6"
+            ],
+            "PZoneContainsDevice": "PZ_8_global",
+            "name": "DV_1_MODEL3",
+            "type": "Device",
+            "x": 222,
+            "y": 164,
+            "z": 0
+        }
+    ],
+    "Employee": [
+        {
+            "HasConnection": [
+            ],
+            "HasLPriv": [
+            ],
+            "HasPAccess": [
+                "PZ_8_global"
+            ],
+            "HasRole": [
+            ],
+            "name": "EM_2_MODEL5",
+            "type": "Employee",
+            "x": 413,
+            "y": 172,
+            "z": 0
+        }
+    ],
+    "LogicalZone": [
+        {
+            "name": "LZ_3_global",
+            "type": "LogicalZone",
+            "x": 82,
+            "y": 58,
+            "z": 0
+        }
+    ],
+    "Operation": [
+        {
+            "OperationContainsConnection": [
+                "SV_10_MODEL6"
+            ],
+            "OperationContainsLPriv": [
+            ],
+            "OperationContainsPAccess": [
+            ],
+            "name": "OP_6_MODEL10",
+            "type": "Operation",
+            "x": 411,
+            "y": 436,
+            "z": 0
+        },
+        {
+            "OperationContainsConnection": [
+                "SV_10_MODEL6"
+            ],
+            "OperationContainsLPriv": [
+            ],
+            "OperationContainsPAccess": [
+            ],
+            "name": "OP_4_MODEL8",
+            "type": "Operation",
+            "x": 237,
+            "y": 428,
+            "z": 0
+        }
+    ],
+    "PhysicalZone": [
+        {
+            "PZoneHasNeighbor": [
+            ],
+            "name": "PZ_8_global",
+            "type": "PhysicalZone",
+            "x": 300,
+            "y": 10,
+            "z": 0
+        }
+    ],
+    "Service": [
+        {
+            "ServiceContainsOperation": [
+            ],
+            "name": "SV_10_MODEL6",
+            "type": "Service",
+            "x": 245,
+            "y": 308,
+            "z": 0
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "type": "object",
+    "properties": {
+        "Device": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "type": {"type": "string"},
+                    "pzone": {"type": "string"},
+					"lzone": {"type": "string"},
+                    "services": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "LogicalZone": {
+            "type": "array",
+            "items": {
+                "type":"object",
+                "properties":{
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+					"neighbors": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+					"x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "PhysicalZone": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties:": {
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+					"x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "Service": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties:": {
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "logicalZone": {"type": "string"},
+                    "physicalZone": {"type": "string"},
+                    "operations": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "Operation": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties:": {
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "connections": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "paccesses": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "service": {"type": "string"},
+                    "x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "Role": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties:": {
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "lprivs": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    
+                    "x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "Actor": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties:": {
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "paccesses": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "lprivs": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "connections": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "roles": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        },
+        "Employee": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties:": {
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "lprivs": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "connections": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "paccesses": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "roles": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "x": {"type": "number"},
+                    "y": {"type": "number"},
+                    "z": {"type": "number"}
+                }
+            }
+        }
+    }
+}

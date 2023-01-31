@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="asset">resources/icons/asset.png</file>
+        <file alias="minus">resources/icons/minus.png</file>
+        <file alias="plc">resources/icons/PLC.png</file>
+        <file alias="plus">resources/icons/plus.png</file>
+        <file alias="router">resources/icons/router.png</file>
+        <file alias="server">resources/icons/server.png</file>
+        <file alias="switch">resources/icons/switch.png</file>
+        <file alias="workstation">resources/icons/workstation.png</file>
+        <file alias="device">resources/icons/gear.png</file>
+        <file alias="employee">resources/icons/employee.png</file>
+        <file alias="actor">resources/icons/actor.png</file>
+        <file alias="LZone">resources/icons/LZone.png</file>
+        <file alias="PZone">resources/icons/PZone.png</file>
+        <file alias="service">resources/icons/service.png</file>
+        <file alias="operation">resources/icons/operation.png</file>
+        <file alias="role">resources/icons/img_382838.png</file>
+        <file alias="downarrow">resources/icons/downarrow.png</file>
+        <file alias="uparrow">resources/icons/uparrow.png</file>
+        <file alias="serviceclass">resources/icons/serviceclass.png</file>
+        <file alias="favicon">resources/icons/favicon.jpg</file>
+    </qresource>
+</RCC>

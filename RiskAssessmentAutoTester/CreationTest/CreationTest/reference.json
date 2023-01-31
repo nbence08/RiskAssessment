@@ -1,0 +1,153 @@
+{
+    "Actor": [
+        {
+            "HasConnection": [
+                "SV_4_MODEL4"
+            ],
+            "HasLPriv": [
+                "OP_6_MODEL6"
+            ],
+            "HasPAccess": [
+                "PZ_14_MODEL14"
+            ],
+            "HasRole": [
+                "RL_10_MODEL10"
+            ],
+            "name": "AR_11_MODEL11",
+            "type": "Actor",
+            "x": 86,
+            "y": 296,
+            "z": 0
+        }
+    ],
+    "Device": [
+        {
+            "DeviceHasService": [
+                "SV_4_MODEL4"
+            ],
+            "LZoneContainsDevice": "LZ_13_MODEL13",
+            "PZoneContainsDevice": "PZ_14_MODEL14",
+            "name": "DV_3_MODEL3",
+            "type": "Device",
+            "x": 576,
+            "y": 226,
+            "z": 0
+        }
+    ],
+    "Employee": [
+        {
+            "HasConnection": [
+                "SV_4_MODEL4"
+            ],
+            "HasLPriv": [
+                "OP_6_MODEL6"
+            ],
+            "HasPAccess": [
+                "PZ_14_MODEL14"
+            ],
+            "HasRole": [
+                "RL_10_MODEL10"
+            ],
+            "name": "EM_12_MODEL12",
+            "type": "Employee",
+            "x": 86,
+            "y": 155,
+            "z": 0
+        }
+    ],
+    "LogicalZone": [
+        {
+            "name": "LZ_13_MODEL13",
+            "type": "LogicalZone",
+            "x": 162,
+            "y": 37,
+            "z": 0
+        }
+    ],
+    "Operation": [
+        {
+            "OperationContainsConnection": [
+            ],
+            "OperationContainsLPriv": [
+            ],
+            "OperationContainsPAccess": [
+            ],
+            "name": "OP_8_MODEL8",
+            "type": "Operation",
+            "x": 290,
+            "y": 473,
+            "z": 0
+        },
+        {
+            "OperationContainsConnection": [
+                "SV_4_MODEL4"
+            ],
+            "OperationContainsLPriv": [
+            ],
+            "OperationContainsPAccess": [
+                "PZ_14_MODEL14"
+            ],
+            "name": "OP_6_MODEL6",
+            "type": "Operation",
+            "x": 429,
+            "y": 453,
+            "z": 0
+        }
+    ],
+    "PhysicalZone": [
+        {
+            "PZoneHasNeighbor": [
+                "PZ_14_MODEL14"
+            ],
+            "name": "PZ_16_MODEL16",
+            "type": "PhysicalZone",
+            "x": 429,
+            "y": -2,
+            "z": 0
+        },
+        {
+            "PZoneHasNeighbor": [
+                "PZ_16_MODEL16"
+            ],
+            "name": "PZ_14_MODEL14",
+            "type": "PhysicalZone",
+            "x": 290,
+            "y": -22,
+            "z": 0
+        }
+    ],
+    "Role": [
+        {
+            "RoleContainsLPriv": [
+                "OP_6_MODEL6"
+            ],
+            "name": "RL_10_MODEL10",
+            "type": "Role",
+            "x": 162,
+            "y": 414,
+            "z": 0
+        }
+    ],
+    "Service": [
+        {
+            "ServiceContainsOperation": [
+                "OP_8_MODEL8"
+            ],
+            "name": "SV_4_MODEL4",
+            "type": "Service",
+            "x": 536,
+            "y": 361,
+            "z": 0
+        }
+    ],
+    "ServiceClass": [
+        {
+            "ServiceClassContainsService": null,
+            "name": "SC_18_MODEL18",
+            "type": "ServiceClass",
+            "x": 536,
+            "y": 90,
+            "z": 0
+        }
+    ]
+}
